@@ -1,0 +1,21 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Data (large or private) - keep folder structure, ignore contents
+data/synthetic/*
+!data/synthetic/.gitkeep
+data/raw/
+results/*.tmp
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
